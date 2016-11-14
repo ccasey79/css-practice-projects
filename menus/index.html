@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Menu Practising</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Making links accessible</h1>
+    <a href="#content" title="skip to content">Skip to content</a>
+    <nav id="mainNav" role="Navigation">
+      <ul>
+          <li><a href="#" title="Home Page">Home</a></li>
+          <li><a href="#" title="Our Products">Products</a></li>
+          <li><a href="#" title="Read our blog">Blog</a></li>
+          <li><a href="#" title="Company info">About</a></li>
+          <li><a href="#" title="Contact Us">Contact</a></li>
+      </ul>
+    </nav> 
+
+  <!--Search form !-->    
+    <form id="frm-search" action="/search.php" method="get">
+    <label for="search">  
+    <span>Search</span>  
+    <input id="search" type="search">
+    </label>
+    <input class="submit" type="submit" value="Find it">
+    </form>
+
+  </header>
+  <article id="content">
+    <h2>Creating accessible links</h2> 
+    <p>Creating accessible HTML should be an important part of any web designer workflow</p>
+
+  </article> 
+
+</body>
+</html>

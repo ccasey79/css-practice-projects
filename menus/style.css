@@ -1,0 +1,25 @@
+body {
+  font: 100% Georgia, "Times New Roman", Times, serif;
+  line-height: 1.4;
+  width: 70%;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  font-size: 2.4em;
+  font-weight: normal;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  color: #575451;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+
+
+
+
+
+
+
