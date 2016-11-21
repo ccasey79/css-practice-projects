@@ -16,17 +16,40 @@ h2 {
   font-size: 1.4em;
 }
 
-a:visited {
+/*a:visited {
   color:#687D8D;
+}*/
+
+/* styling a vertical menu */
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-a:hover {
-  color:#D5973C;
+li a {
+  display: block;
+  width: 8em;
+  line-height: 2em;
+  font-size: 1em;
+  text-decoration: none;
+  background: #d5973c;
+  color: white;
+  padding: .2em 0 .2em 1em;
+  border-bottom: .125em solid white;
 }
 
-a:focus {
-  outline: 1px solid red;
+li a:hover {
+  background: #87492F;
 }
+
+li:last-child a {
+  border-bottom: none;
+}
+
+
+
 
 img {
   padding: 4px;
