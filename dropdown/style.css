@@ -82,6 +82,12 @@ ul.submenu {
   position: absolute;
   top: 2em;
   left: -9000em;
+  max-height: 0;
+  -moz-transition: max-height: 0.5s ease-in-out;
+  -webkit-transition: max-height: 0.5s ease-in-out;
+  -o-transition: max-height: 0.5s ease-in-out;
+  transition: max-height: 0.5s ease-in-out;
+  overflow: hidden;
 }
 
 ul.submenu li {
@@ -90,6 +96,7 @@ ul.submenu li {
 
 .topmenu li:hover ul {
   left: 0;
+  max-height: 10em;
 } 
 
 ul.submenu li a {
