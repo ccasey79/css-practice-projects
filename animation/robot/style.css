@@ -1,0 +1,27 @@
+
+body {
+  background: #ffa;
+}
+
+.wrapper {
+  margin: 20em auto 2em auto;
+  width: 80%;
+  position: relative;
+}
+
+.robot {
+  animation-name: slide;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(.02,.86,.97,.43);
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide {
+  from {transform: translate(0);}
+  to {transform: translateX(900px);}
+}
+
+
+
+
