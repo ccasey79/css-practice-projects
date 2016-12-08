@@ -1,0 +1,18 @@
+
+body {
+  width: 750px;
+  font-family: Arial, Verdana, sans-serif;
+  color: #665544;
+}
+
+h1 {
+  background-color: #efefef;
+  padding: 10px;
+}
+
+.example {
+  position: relative;
+  top: 10px;
+  text-align: center;
+  left: 350px;
+}
