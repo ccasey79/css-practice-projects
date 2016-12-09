@@ -1,0 +1,85 @@
+
+body {
+  background: #e6fffa;
+  font-family: Helvetica;
+}
+
+.newsletterForm {
+  width: 300px;
+  margin: 200px auto 0 auto;
+  background-color: white;
+  padding: 10px 20px 20px 20px;
+  line-height: 160%;
+  font-size: 14px;
+  text-align: center;
+}
+
+.textbox {
+  width: 275px;
+  font-size: 16px;
+  font-weight: 100;
+  padding: 10px;
+}
+
+.btn {
+  background-color: dodgerblue;
+  border: 0;
+  color: white;
+  padding: 10px;
+  font-size: 12px;
+  width: 100%;
+  margin-top: 10px;
+  outline: none;
+}
+
+.btn:active {
+  opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.item {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  margin: 300px auto 0 auto;
+  -webkit-animation-duration: 2s;
+  /*-webkit-animation-delay: 2s;*/
+  -webkit-animation-iteration-count: 2;
+}
