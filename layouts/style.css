@@ -1,20 +1,104 @@
 
+/*body {
+  width: 750px;
+  font-family: Arial, Verdana, sans-serif;
+  color: #665544;
+}*/
+
+/* Fixed header
+
+h1 {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding: 10px;
+  margin: 0px;
+  width: 100%;
+  background-color: #efefef;
+}
+
+p.example {
+  margin-top: 100px;
+}
+
+*/
+
+/* Using z-index on a header 
+
+h1 {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  padding: 10px;
+  width: 100%;
+  background-color: #efefef;
+  z-index: 10;
+}
+
+p {
+  position: relative;
+  top: 70px;
+  left: 70px;
+}
+
+*/
+
+/* Using a float position with a quote in this example
+
+blockquote {
+  float: right;
+  width: 275px;
+  font-size: 130%;
+  font-style: italic;
+  font-family: Georgia, Times, serif;
+  margin: 0px 0px 10px 10px;
+  padding: 10px;
+  border-top: 1px solid #665544;
+  border-bottom: 1px solid #665544;
+}
+
+*/
+
+/* float elements side by side
+
 body {
   width: 750px;
   font-family: Arial, Verdana, sans-serif;
   color: #665544;
 }
 
-h1 {
+p {
+  width: 230px;
+  float: left;
+  margin: 5px;
+  padding: 5px;
   background-color: #efefef;
-  padding: 10px;
 }
 
-.example {
-  position: relative;
-  top: 10px;
-  text-align: center;
-  left: 350px;
+*/
+
+h1 {
+background-color: #efefef;
 }
+
+.column1of2 {
+  float: left;
+  width: 620px;
+  margin: 10px;
+}
+
+.column20f2 {
+  float: left;
+  width: 300px;
+  margin: 10px;
+}
+
+
+
+
+
+
+
 
 
