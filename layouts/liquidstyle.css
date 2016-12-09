@@ -1,0 +1,75 @@
+
+
+
+/* Hand-coded CSS for responsive column grid - liquid layout */
+
+
+body {
+  width: 90%;
+  margin: 0 auto;
+  font-family: courier;
+}
+
+h1 {
+  text-align: center;
+}
+
+#content {
+  overflow: auto;
+}
+
+#nav, #feature, #footer {
+  margin: 1%;
+}
+
+.column1, .column2, .column3 {
+  width: 31.3%;
+  float: left;
+  margin: 1%;
+  text-align: center;
+}
+
+.column3 {
+  margin-right: 0%;
+}
+
+li {
+  display: inline;
+  padding: 0.5em;
+}
+
+#nav, #footer {
+  background-color: #efefef;
+  padding: 0.5em 0;
+}
+
+#feature, .article {
+  height: 10em;
+  margin-bottom: 1em;
+  background-color: #efefef;
+}
+
+#feature {
+  text-align: center;
+  padding-top: 5px;
+}
+
+#footer {
+  text-align: center;
+}
+
+#nav {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
