@@ -1,0 +1,24 @@
+
+/* Centuring an image with text underneath 
+
+body {
+  background: #e6fffa;
+}
+
+img.align-center {
+  display: block;
+  margin: 0 auto;
+}
+
+img.medium {
+  width: 350px;
+  height: 550px;
+}
+
+*/
+
+body {
+  background-image: url("tulip.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+}
