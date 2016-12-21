@@ -1,38 +1,36 @@
-$blue:#9FBFBF;
+$black:#000000;
 $margin: 5%;
 $cream: #F2EFEB;
 $cream2:$cream - 100;
+$blue: #708C87;
 
+@mixin border-radius($radius: 20px) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
 
 body { 
   background: #262626;
   font-family: helvetica, ariel, sans-serif;
 }
 
-header {
-  margin: 20px 0 0 $margin;
+header { margin: 20px 0 0 $margin; 
+h1 { color: $blue }
+h2 { color: $blue }
 }
 
 p { 
-  color: $blue;
+  color: $black;
   margin: 20px $margin;
 }
 
-h1 {
-  color: $blue;
-  margin: 10px 10%;
-}
-
-h2 {
-  color: $blue;
-  margin: 10px $margin + 5%;
-}
-
 a {
-  margin: $margin;
+  margin: $blue - 100;
 }
 
 .grad {
+  @include border-radius;
   padding: 1%;
   background-color: $cream;
   background-image: -webkit-gradient(linear, left top, left bottom, from($cream), to($cream2));
@@ -40,10 +38,58 @@ a {
   background-image: -moz-linear-gradient(top, $cream, $cream2);
   background-image: -ms-linear-gradient(top, $cream, $cream2);
   background-image: -o-linear-gradient(top, $cream, $cream2);
+  .intro { background: #333; @include border-radius;
+    .par1 { color: $blue + 100;
+    a { font-size: 20px; background: $cream;}
+    a:hover { background: $cream - 100;}  
+    }
+  }
+  .feature { border: 1px solid blue;}
+}  
+
+@mixin circle($width, $color) {
+  width: $width;
+  height: $width;
+  background: $color;
+  -webkit-border-radius: $width/2;
+  -moz-border-radius: $width/2;
+  border-radius: $width/2;
 }
 
+@mixin triangle($width, $dir, $color) {
+  @if $dir == up {
+    width: 0; height: 0;
+    border-left: $width/2 solid transparent;
+    border-right: $width/2 solid transparent;
+    border-bottom: $width/2 solid $color;
+  } @else if $dir == down {
+    width: 0; height: 0;
+    border-left: $width/2 solid transparent;
+    border-right: $width/2 solid transparent;
+    border-top: $width/2 solid $color;
+  }
+}
+.circle { @include circle(200px, #999); display:block;
+  &:hover { background: black; }
+}
+.triangle { @include triangle(200px, up, red); display:block; }
 
+.ir { font:0/0 a; text-shadow:none; color:transparent; }
 
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; } 
+
+/* creating lists */
+
+ul.social-links li { list-style: none;
+  a { display: block; float: left; width: 65px; height: 65px; }
+}
+
+$icons:(twit,fb,youtube,rss);
+@each $social in $icons {
+  .#{$social} { background: url('../img/#{$social}.png') no-repeat;}
+}
 
 
 

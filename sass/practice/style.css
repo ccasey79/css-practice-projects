@@ -4,23 +4,22 @@ body {
 
 header {
   margin: 20px 0 0 5%; }
+  header h1 {
+    color: #708C87; }
+  header h2 {
+    color: #708C87; }
 
 p {
-  color: #9FBFBF;
+  color: #000000;
   margin: 20px 5%; }
 
-h1 {
-  color: #9FBFBF;
-  margin: 10px 10%; }
-
-h2 {
-  color: #9FBFBF;
-  margin: 10px 10%; }
-
 a {
-  margin: 5%; }
+  margin: #0c2823; }
 
 .grad {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
   padding: 1%;
   background-color: #F2EFEB;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#F2EFEB), to(#8e8b87));
@@ -28,5 +27,74 @@ a {
   background-image: -moz-linear-gradient(top, #F2EFEB, #8e8b87);
   background-image: -ms-linear-gradient(top, #F2EFEB, #8e8b87);
   background-image: -o-linear-gradient(top, #F2EFEB, #8e8b87); }
+  .grad .intro {
+    background: #333;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px; }
+    .grad .intro .par1 {
+      color: #d4f0eb; }
+      .grad .intro .par1 a {
+        font-size: 20px;
+        background: #F2EFEB; }
+      .grad .intro .par1 a:hover {
+        background: #8e8b87; }
+  .grad .feature {
+    border: 1px solid blue; }
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background: #999;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  display: block; }
+  .circle:hover {
+    background: black; }
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid red;
+  display: block; }
+
+.ir {
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent; }
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  zoom: 1; }
+
+/* creating lists */
+ul.social-links li {
+  list-style: none; }
+  ul.social-links li a {
+    display: block;
+    float: left;
+    width: 65px;
+    height: 65px; }
+
+.twit {
+  background: url("../img/twit.png") no-repeat; }
+
+.fb {
+  background: url("../img/fb.png") no-repeat; }
+
+.youtube {
+  background: url("../img/youtube.png") no-repeat; }
+
+.rss {
+  background: url("../img/rss.png") no-repeat; }
 
 /*# sourceMappingURL=style.css.map */
