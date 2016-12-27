@@ -24,7 +24,7 @@ h1 {
 }
 
 .front, .back {
-  background: #5677fc;
+  background: red;
   position: absolute;
   top: 0;
   left: 0;
