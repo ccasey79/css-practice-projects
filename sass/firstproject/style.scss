@@ -1,0 +1,38 @@
+
+$background: #DAE5E8;
+
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#content {
+  overflow: auto;
+  height: 100%;
+}
+
+#nav, #feature, #footer {
+  background-color: $background;
+  text-align: center;
+}
+
+.column1, .column2, .column3 {
+  background-color: $background;
+  width: 300px;
+  float:left;
+  margin: 10px;
+  text-align: center;
+}
+
+#logo {
+  text-align: center;
+  font-family: courier;
+}
+
+li {
+  display: inline;
+  a {
+  text-decoration: none;
+  padding: 25px;
+  }
+}

@@ -1,0 +1,30 @@
+body {
+  width: 960px;
+  margin: 0 auto; }
+
+#content {
+  overflow: auto;
+  height: 100%; }
+
+#nav, #feature, #footer {
+  background-color: #DAE5E8;
+  text-align: center; }
+
+.column1, .column2, .column3 {
+  background-color: #DAE5E8;
+  width: 300px;
+  float: left;
+  margin: 10px;
+  text-align: center; }
+
+#logo {
+  text-align: center;
+  font-family: courier; }
+
+li {
+  display: inline; }
+  li a {
+    text-decoration: none;
+    padding: 25px; }
+
+/*# sourceMappingURL=style.css.map */
