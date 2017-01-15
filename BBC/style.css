@@ -68,28 +68,28 @@ body {
   border-right: 1px solid #c6af36;
 }
 
+#tennis {
+  border-right: 1px solid #c6af36;
+}
+
 #mysport {
   border-left: 1px solid #c6af36;
+  margin-left: 550px;
+
 }
 
 #allsport {
   border-left: 1px solid #c6af36;
 }
 
-
-
 #mainimage {
   margin-left: 98px;
   margin-top: 18px;
 }
 
-
-
-
-
-
-
-
-
-
-
+button {
+  background: #1169f6;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+}
