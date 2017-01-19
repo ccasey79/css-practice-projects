@@ -88,8 +88,73 @@ body {
 }
 
 button {
+  position: absolute;
   background: #1169f6;
   color: #fff;
   font-size: 18px;
   border: none;
+  margin-top: 30px;
+  margin-left: 14px;
+}
+
+#headline1 {
+  position: absolute;
+  margin-left: 622px;
+  margin-top: -251px;
+}
+
+#headline2 {
+  position: absolute;
+  margin-left: 569px;
+  margin-top: -217px;
+}
+
+#headline3 {
+  position: absolute;
+  margin-left: 570px;
+  margin-top: -188px;
+}
+
+#headline4 {
+  position: absolute;
+  margin-left: 571px;
+  margin-top: -160px;
+}
+
+#headline1 a {
+  text-decoration: none;
+  color: black;
+  font-family:sans-serif;
+  font-size: 24px;
+  font-weight:bold;
+}
+
+#headline2 a {
+  text-decoration: none;
+  color: black;
+  font-family:sans-serif;
+  font-size: 24px;
+  font-weight:bold;
+}
+
+#headline3 a {
+  text-decoration: none;
+  color: black;
+  font-family:sans-serif;
+  font-size: 24px;
+  font-weight:bold;
+}
+
+#headline4 a {
+  text-decoration: none;
+  color: black;
+  font-family:sans-serif;
+  font-size: 24px;
+  font-weight:bold;
+}
+
+#ronnie {
+  position: absolute;
+  margin-left: 269px;
+  margin-top: 19px;
 }
