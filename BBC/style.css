@@ -158,3 +158,34 @@ button {
   margin-left: 269px;
   margin-top: 19px;
 }
+
+#gossip {
+  position: absolute;
+  margin-left: 536px;
+  margin-top: 19px;
+}
+
+.cricket {
+  margin-left: 573px;
+  margin-top: -135px;
+  font-family: sans-serif;
+  font-size: 14.5px;
+  font-weight:normal;
+  color: gray;
+}
+
+#singh {
+  margin-top: 12px;
+}
+
+#england {
+  margin-top: -13px;
+}
+
+#second {
+  margin-top: -13px;
+}
+
+#cuttack {
+  margin-top: -13px;
+}
