@@ -219,6 +219,55 @@ button {
   text-decoration: none;
 }
 
+#gossipline {
+  position: absolute;
+  margin-left: 1094px;
+  margin-top: -53px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+#hr1 {
+  margin-left: 1093px;
+  width: 20%;
+  border: 0.5;
+  border-top: 1px solid #ccc;
+  margin-top: -3px;
+  position: absolute;
+}
+
+#facup {
+  position: absolute;
+  margin-left: 1093px;
+  margin-top: 4px;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+#hr2 {
+  width: 20%;
+  border: 0.5;
+  border-top: 1px solid #ccc;
+  margin-left: 1093px;
+  margin-top: 28px;
+  position: absolute;
+}
+
+#livelogo1 {
+  position: absolute;
+  margin-top: 11px;
+  margin-left: 570px;
+}
+
+#livelogo2 {
+  position: absolute;
+  margin-top: 11px;
+  margin-left: 823px;
+
+}
+
+
 #novak {
   margin-left: 97px;
   margin-top: 1px;
