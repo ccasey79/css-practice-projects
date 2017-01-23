@@ -264,9 +264,25 @@ button {
   position: absolute;
   margin-top: 11px;
   margin-left: 823px;
-
 }
 
+#green1 {
+  position: absolute;
+  margin-left: 631px;
+  margin-top: 14px;
+  font-size: 13px;
+  font-family: sans-serif;
+  color: green;
+}
+
+#green2 {
+  position: absolute;
+  font-size: 13px;
+  font-family: sans-serif;
+  color: green;
+  margin-top: 14px;
+  margin-left: 888px;
+}
 
 #novak {
   margin-left: 97px;
@@ -276,4 +292,22 @@ button {
 #koeman {
   margin-left: 10px;
   margin-top: 48px;
+}
+
+#konta {
+  margin-left: 15px;
+}
+
+#gym {
+  margin-left: 13px;
+}
+
+#vertical {
+  width: 0px;
+  height: 248px;
+  position:absolute;
+  margin-left:511px;
+  margin-top: 19px;
+  display: inline-block;
+  border-left: 1px solid #ccc;
 }
