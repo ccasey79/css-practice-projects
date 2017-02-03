@@ -424,3 +424,77 @@ button {
   margin-top: 1px;
   margin-left: 80px;
 }
+
+#vertical2 {
+  width: 0px;
+  height: 12px;
+  border-left: 1px solid #ccc;
+  display: inline-block;
+  margin-left: -1px;
+  margin-top: 4px;
+  position: absolute;
+}
+
+#vertical3 {
+  width: 0px;
+  height: 12px;
+  border-left: 1px solid #ccc;
+  display: inline-block;
+  margin-left: 51px;
+  margin-top: 4px;
+  position: absolute;
+}
+
+#thirty-five {
+  margin-left: 322px;
+}
+
+#vertical4 {
+  width: 0px;
+  height: 12px;
+  border-left: 1px solid #ccc;
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 4px;
+  position: absolute;
+}
+
+#smalltennis2 {
+   position: absolute;
+   margin-left: 640px;
+   margin-top: -22px;
+   font-size: 13px;
+   font-family: sans-serif;
+   color: green;
+}
+
+#twohours {
+  position: absolute;
+  margin-left: 195px;
+}
+
+#vertical5 {
+  width: 0px;
+  height: 12px;
+  border-left: 1px solid #ccc;
+  display: inline-block;
+  margin-left: 241px;
+  margin-top: 4px;
+  position: absolute;
+}
+
+#diving {
+  position: absolute;
+  margin-left: 877px;
+  margin-top: -22px;
+  font-family: sans-serif;
+  font-size: 13px;
+  color: green;
+}
+
+#hr3 {
+  width: 66%;
+  border-top: 1px solid #ccc;
+  margin-right: 385px;
+  border: 0.5;
+}
