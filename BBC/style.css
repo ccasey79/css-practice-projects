@@ -6,6 +6,76 @@ body {
   padding-left: 101px;
 }
 
+.topmenu {
+  position: absolute;
+  margin-left: 396px;
+  margin-top: -40px;
+}
+
+#topnews {
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#topsport {
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#topweather {
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#topplayer {
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#toptv {
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#topradio {
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#topcbbc {
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#topmore {
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
 .navbar {
   width: 100%;
   height: 80px;
@@ -497,4 +567,51 @@ button {
   border-top: 1px solid #ccc;
   margin-right: 385px;
   border: 0.5;
+}
+
+#vertical6 {
+  width: 0px;
+  height: 39px;
+  border-left: 1px solid #ccc;
+  display: inline-block;
+  position: absolute;
+  margin-left: 15px;
+  margin-top: -8px;
+}
+
+#signin {
+  margin-left: 31px;
+  margin-top: -1px;
+  position: absolute;
+}
+
+#signtext {
+  margin-left: 249px;
+  margin-top: -24px;
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#zigzag {
+  position: absolute;
+  margin-left: 173px;
+  margin-top: -7px;
+}
+
+#bell {
+  position: absolute;
+  margin-left: 191px;
+  margin-top: -2px;
+}
+
+#vertical7 {
+  width: 0px;
+  height: 39px;
+  border-left: 1px solid #ccc;
+  display: inline-block;
+  position: absolute;
+  margin-left: 227px;
+  margin-top: -8px;
 }
