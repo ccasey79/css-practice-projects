@@ -12,12 +12,17 @@ body {
   margin-top: -40px;
 }
 
+.topmenu2 {
+  margin-left: -2px;
+}
+
 #topnews {
   color: black;
   text-decoration: none;
   font-family: sans-serif;
   font-size: 13px;
   font-weight: bold;
+  padding-right: 37px;
 }
 
 #topsport {
@@ -26,6 +31,7 @@ body {
   font-family: sans-serif;
   font-size: 13px;
   font-weight: bold;
+  padding-right: 37px;
 }
 
 #topweather {
@@ -34,6 +40,7 @@ body {
   font-family: sans-serif;
   font-size: 13px;
   font-weight: bold;
+  padding-right: 37px;
 }
 
 #topplayer {
@@ -42,6 +49,7 @@ body {
   font-family: sans-serif;
   font-size: 13px;
   font-weight: bold;
+  padding-right: 37px;
 }
 
 #toptv {
@@ -50,6 +58,7 @@ body {
   font-family: sans-serif;
   font-size: 13px;
   font-weight: bold;
+  padding-right: 37px;
 }
 
 #topradio {
@@ -58,6 +67,7 @@ body {
   font-family: sans-serif;
   font-size: 13px;
   font-weight: bold;
+  padding-right: 37px;
 }
 
 #topcbbc {
@@ -66,6 +76,7 @@ body {
   font-family: sans-serif;
   font-size: 13px;
   font-weight: bold;
+  padding-right: 37px;
 }
 
 #topmore {
@@ -74,6 +85,86 @@ body {
   font-family: sans-serif;
   font-size: 13px;
   font-weight: bold;
+}
+
+#vertical8 {
+  width: 0px;
+  height: 39px;
+  border-left: 1px solid #ccc;
+  display: inline-block;
+  position: absolute;
+  margin-left: -22px;
+  margin-top: -13px;
+}
+
+#vertical9 {
+  width: 0px;
+  height: 39px;
+  border-left: 1px solid #ccc;
+  display: inline-block;
+  position: absolute;
+  margin-left: -22px;
+  margin-top: -13px;
+}
+
+#vertical10 {
+  width: 0px;
+  height: 39px;
+  border-left: 1px solid #ccc;
+  display: inline-block;
+  position: absolute;
+  margin-left: -22px;
+  margin-top: -13px;
+}
+
+#vertical11 {
+  width: 0px;
+  height: 39px;
+  border-left: 1px solid #ccc;
+  display: inline-block;
+  position: absolute;
+  margin-left: -22px;
+  margin-top: -13px;
+}
+
+#vertical12 {
+  width: 0px;
+  height: 39px;
+  border-left: 1px solid #ccc;
+  display: inline-block;
+  position: absolute;
+  margin-left: -22px;
+  margin-top: -13px;
+}
+
+#vertical13 {
+  width: 0px;
+  height: 39px;
+  border-left: 1px solid #ccc;
+  display: inline-block;
+  position: absolute;
+  margin-left: -22px;
+  margin-top: -13px;
+}
+
+#vertical14 {
+  width: 0px;
+  height: 39px;
+  border-left: 1px solid #ccc;
+  display: inline-block;
+  position: absolute;
+  margin-left: -22px;
+  margin-top: -13px;
+}
+
+#vertical15 {
+  width: 0px;
+  height: 39px;
+  border-left: 1px solid #ccc;
+  display: inline-block;
+  position: absolute;
+  margin-left: 950px;
+  margin-top: -8px;
 }
 
 .navbar {
