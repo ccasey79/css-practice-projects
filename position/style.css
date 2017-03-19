@@ -29,6 +29,19 @@ body {
   margin: 1%;
   padding: 1%;
   height: 140px;
+  position: relative;
+}
+
+.service:nth-child(1) {
+  top: 5px;
+}
+
+.service:nth-child(2) {
+  top: 15px;
+}
+
+.service:nth-child(3) {
+  top: 25px;
 }
 
 .services:after {
@@ -64,4 +77,17 @@ section, aside {
   content: "";
   display: block;
   clear: both;
+}
+
+.banner {
+  max-height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner h2 {
+  position: absolute;
+  top: 7%;
+  left: 39%;
+  color: #fff;
 }
