@@ -110,6 +110,7 @@ nav {
   max-width: 100%;
   background-color: #3b5998;
   padding: 2%;
+  position: relative;
 }
 
 .input-head {
@@ -130,4 +131,29 @@ main {
 
 .column1 {
   width: 60%;
+}
+
+#email-txt {
+  color: #fff;
+  font-family: lucida Grande, Tahoma;
+  font-size: 0.7rem;
+  position: absolute;
+  margin-top: -1%;
+}
+
+#password-txt {
+  color: #fff;
+  font-family: lucida Grande, Tahoma;
+  font-size: 0.7rem;
+  position: absolute;
+  margin-top: -1%;
+}
+
+#forgotten-txt {
+  color: #8c9bc3;
+  font-family: lucida Grande, Tahoma;
+  font-size: 0.7rem;
+  position: absolute;
+  margin-right: 2%;
+  margin-top: 1.7%;
 }
