@@ -131,6 +131,12 @@ main {
 
 .column1 {
   width: 60%;
+  float: left;
+}
+
+.column2 {
+  width: 40%;
+  float: right;
 }
 
 #email-txt {
@@ -182,4 +188,20 @@ main {
   font-weight: 600;
   font-size: 1.2rem;
   padding-bottom: 2%;
+}
+
+#account-info1 {
+  padding-top: 8%;
+  font-size: 2.2rem;
+  font-family: lucida Grande, Tahoma;
+  font-weight:600;
+  color: #333333;
+}
+
+#account-info2 {
+  padding-top: 4%;
+  font-family: lucida Grande, Tahoma;
+  font-weight: 100;
+  color: #333333;
+  font-size: 1.2rem;
 }
