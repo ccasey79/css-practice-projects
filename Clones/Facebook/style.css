@@ -248,15 +248,17 @@ main {
 }
 
 .birth-info {
-
+  float: right;
+  margin-right: 15%;
+  margin-top: -5%;
 }
 
 #birth1 {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: #3b5998;
 }
 
 #birth2 {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: #3b5998;
 }
