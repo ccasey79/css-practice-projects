@@ -205,3 +205,58 @@ main {
   color: #333333;
   font-size: 1.2rem;
 }
+
+#bday {
+  margin-top: 4%;
+  font-family: lucida Grande, Tahoma;
+  color: #333333;
+}
+
+/* inputs */
+
+#name-btn {
+  width: 180px;
+  height: 30px;
+  margin-top: 4%;
+  border-radius: 4px;
+}
+
+#surname-btn {
+  width: 180px;
+  height: 30px;
+  margin-top: 4%;
+  border-radius: 4px;
+}
+
+#contact-btn {
+  width: 370px;
+  height: 30px;
+  margin-top: 4%;
+  border-radius: 4px;
+}
+
+#password-btn {
+  width: 370px;
+  height: 30px;
+  margin-top: 4%;
+  border-radius: 4px;
+}
+
+/* Select Boxes */
+.select-btns {
+  margin-top: 4%;
+}
+
+.birth-info {
+
+}
+
+#birth1 {
+  font-size: 0.8rem;
+  color: #3b5998;
+}
+
+#birth2 {
+  font-size: 0.8rem;
+  color: #3b5998;
+}
