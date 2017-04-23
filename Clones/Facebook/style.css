@@ -278,3 +278,43 @@ main {
   color: #333333;
   font-size: 1.2rem;
 }
+
+#terms {
+  margin-top: 4%;
+}
+
+.term {
+  font-size: 0.6rem;
+  padding: 1px;
+  font-family: lucida Grande, Tahoma;
+  font-weight: 100;
+}
+
+span {
+  font-size: 0.6rem;
+  color: #3b5998;
+  font-family: lucida Grande, Tahoma;
+  font-weight: 100;
+}
+
+button {
+  margin-top: 4%;
+}
+
+.final-info {
+  margin-top: 9%;
+}
+
+#final-sentence {
+  font-size: 0.8rem;
+  font-family: lucida Grande, Tahoma;
+  font-weight: 100;
+  color: #333333;
+}
+
+#page {
+  font-size: 0.8rem;
+  font-family: lucida Grande, Tahoma;
+  font-weight: 100;
+  color: #3b5998;
+}
