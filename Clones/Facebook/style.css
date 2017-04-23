@@ -253,6 +253,12 @@ main {
   margin-top: -5%;
 }
 
+.birth-info:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
 #birth1 {
   font-size: 0.7rem;
   color: #3b5998;
@@ -261,4 +267,14 @@ main {
 #birth2 {
   font-size: 0.7rem;
   color: #3b5998;
+}
+
+/* Radio buttons */
+
+.radio {
+  margin-top: 6%;
+  font-family: lucida Grande, Tahoma;
+  font-weight: 100;
+  color: #333333;
+  font-size: 1.2rem;
 }
