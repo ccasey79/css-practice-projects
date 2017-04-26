@@ -144,7 +144,7 @@ main {
   font-family: lucida Grande, Tahoma;
   font-size: 0.7rem;
   position: absolute;
-  margin-top: -1%;
+  margin-top: -1px;
 }
 
 #password-txt {
@@ -152,7 +152,7 @@ main {
   font-family: lucida Grande, Tahoma;
   font-size: 0.7rem;
   position: absolute;
-  margin-top: -1%;
+  margin-top: -1px;
 }
 
 #forgotten-txt {
@@ -161,7 +161,7 @@ main {
   font-size: 0.7rem;
   position: absolute;
   margin-right: 2%;
-  margin-top: 1.7%;
+  margin-top: 37px;
 }
 
 #log {
@@ -170,7 +170,11 @@ main {
   font-size: 0.7rem;
   font-family: lucida Grande, Tahoma;
   border: 1px solid #29487d;
-  margin-left: 10px;
+  margin-left: 13px;
+}
+
+#password-login {
+  margin-left: 13px;
 }
 
 #phrase1 {
@@ -242,6 +246,20 @@ main {
   border-radius: 4px;
 }
 
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #999999;
+  padding-left: 10%;
+  font-size: 16px;
+}
+
+
+
+::-moz-input-placeholder {
+  color: #999999;
+  padding: 10%;
+  font-size: 16px;
+}
+
 /* Select Boxes */
 .select-btns {
   margin-top: 4%;
@@ -297,8 +315,16 @@ span {
   font-weight: 100;
 }
 
-button {
+#account {
   margin-top: 4%;
+  background: #6ca857;
+  width: 190px;
+  height: 45px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-family: lucida Grande, Tahoma;
+  font-weight: 700;
 }
 
 .final-info {
